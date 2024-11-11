@@ -45,7 +45,7 @@ if ingredients_list:
         if time_to_insert:
             session.sql(my_insert_stmt).collect()
     
-    if time_to_insert: st.success('Your smoothi is ordered!', icon='✅')
+    st.success('Your smoothi is ordered!', icon='✅')
             
    
     #st.write(ingredients_string)
